@@ -1,0 +1,49 @@
+@charset "UTF-8"
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and ( min-width: 768px) and (max-width: 992px) {
+    html,body{
+        background-color: rgb(54, 93, 175);
+        background-image: linear-gradient(to top, rgb(54, 93, 175), rgb(119, 158, 241));
+        
+    }
+    section{
+        width: 80vw;
+    }
+    div.imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    div.formulario{
+        float: right;
+        width: 66%;
+    }
+}
+@media screen and ( min-width: 992px) {
+    html,body{
+        background-color: rgb(54, 93, 175);
+        background-image: linear-gradient(to top, rgb(54, 93, 175), rgb(119, 158, 241));
+        
+    }
+    section{
+        width: 90vw;
+    }
+    div.imagem{
+        float: right;
+        width: 30%;
+        height: 100%;
+    }
+    div.formulario{
+        float: left;
+        width: 66%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    .par{
+        font-size: 0.99em;
+    }
+}
